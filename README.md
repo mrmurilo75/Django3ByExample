@@ -11,6 +11,10 @@ $ pip install -U pip setuptools wheel
 $ pip install -r requirements.txt
 
 $ django-admin startproject mysite
+
+$ cd mysite/
+$ python manage.py migrate
+
 ```
 
 
