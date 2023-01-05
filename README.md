@@ -15,6 +15,8 @@ $ django-admin startproject mysite
 $ cd mysite/
 $ python manage.py migrate
 
+$ python manage.py startapp blog
+
 ```
 
 
