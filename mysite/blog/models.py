@@ -40,7 +40,7 @@ class Post(models.Model):
                            'year': self.publish.year,
                            'month': self.publish.month,
                            'day': self.publish.day,
-                           'slug': self.slug,
+                           'post': self.slug,
                        }
                        )
 
